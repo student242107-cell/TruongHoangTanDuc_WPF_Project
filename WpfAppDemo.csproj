@@ -9,17 +9,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\414695095_326984580152421_7803660344917719350_n.jpg" />
+    <None Remove="Images\ewwww.jpg" />
+    <None Remove="Images\meo_sigma.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.24" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.24" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\HOME\AboutMe.xaml.cs">
+    <Compile Update="Views\HOME\AboutMePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ONBOARDING\SignUp.xaml.cs">
+    <Compile Update="Views\ONBOARDING\SignUpPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\414695095_326984580152421_7803660344917719350_n.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -20,7 +20,7 @@ namespace WpfAppDemo
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new LogIn());
+            MainFrame.Navigate(new LogInPage());
         }
     }
 }

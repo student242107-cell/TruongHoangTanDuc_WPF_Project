@@ -1,0 +1,48 @@
+﻿<Page x:Class="WpfAppDemo.Views.HOME.AboutMePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppDemo"
+        mc:Ignorable="d"
+        Title="AboutMe" Height="450" Width="800">
+    <Grid Background="AliceBlue">
+        <Label Content="ABOUT ME" FontSize="30" Foreground="Orange" FontWeight="Bold" 
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,60,0,0"></Label>
+
+        <Image x:Name="image" Height="200" Width="200"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="98,141,0,0"
+               Source="E:\TAN DUC\Pictures\vãi ò\558305463_826986916938600_5996948388883638060_n.jpg"/>
+        <Button Content="Download CV" FontSize="22" FontWeight="Bold" 
+                Foreground="White" Background="DarkOrange"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,350,0,0"/>
+        <Button Content="Hire me" FontSize="22" FontWeight="Bold" 
+                Foreground="White" Background="DarkGreen"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,390,0,0"/>
+        <Button Content="Back" FontSize="22" FontWeight="Bold" 
+                Foreground="White" Background="DarkRed"
+                HorizontalAlignment="Left" VerticalAlignment="Top" 
+                Margin="230,390,0,0"
+                Click="BackHome_Click"/>
+
+        <Label Content="Email" FontSize="20" FontWeight="Bold"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,160,0,0"></Label>
+        <Label Content="haha@email.com" FontSize="20" Foreground="Orange" FontWeight="Bold"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,200,0,0"></Label>
+
+        <Label Content="Phone" FontSize="20" FontWeight="Bold" 
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,240,0,0"></Label>
+        <Label Content="(+69) 036 067 999" FontSize="20" Foreground="Orange" FontWeight="Bold"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,280,0,0"></Label>
+
+        <Label Content="Exp. (Years)" FontSize="20" FontWeight="Bold"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,320,0,0"></Label>
+        <Label Content="None" FontSize="35" Foreground="Orange" FontWeight="Bold"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,360,0,0"></Label>
+
+        <Label Content="Degree" FontSize="20" FontWeight="Bold"
+       HorizontalAlignment="Left" VerticalAlignment="Top" Margin="590,320,0,0"></Label>
+        <Label Content="Professor" FontSize="35" Foreground="Orange" FontWeight="Bold"
+       HorizontalAlignment="Left" VerticalAlignment="Top" Margin="590,360,0,0"></Label>
+    </Grid>
+</Page>

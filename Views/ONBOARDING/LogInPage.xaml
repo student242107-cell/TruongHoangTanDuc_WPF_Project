@@ -1,0 +1,57 @@
+﻿<Page x:Class="WpfAppDemo.Views.OnBoarding.LogInPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppDemo"
+        mc:Ignorable="d"
+        Title="LogIn" MinHeight="300" MinWidth="400">
+    <Grid Background="AliceBlue">
+        <Viewbox Stretch="Uniform">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="0" Source="E:\TAN DUC\Pictures\vãi ò\z3942141129895_d951de307826e39e8bd1383d521792fa.jpg"
+                       HorizontalAlignment="Left" VerticalAlignment="Center" 
+                       Height="155" Width="100"/>
+                <StackPanel Grid.Column="1" Orientation ="Vertical" Height="Auto" Width="Auto">
+                    <TextBlock Text="WELCOME" FontSize ="40" FontStyle="Italic" FontFamily="Arial Rounded MT Bold"
+                           Foreground="Aqua" Background="Azure"
+                           HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    <TextBlock Text="Username" FontSize="20"
+                           HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtUsername"
+                             HorizontalAlignment="Left" VerticalAlignment="Top" 
+                             Width="167" Height="26"/>
+
+                    <TextBlock Text="Password" FontSize="20"
+                           HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtPassword"
+                             HorizontalAlignment="Left" VerticalAlignment="Top" 
+                             Width="167" Height="26"/>
+
+                    <Button Content="Login" 
+                            Height="30" Width="110"
+                            Background="CadetBlue" Foreground ="White"
+                            HorizontalAlignment="Left" VerticalAlignment="Top" Click="LogIn_Click" />
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Forgot password" FontFamily="Berlin Sans FB" FontStyle="Italic" FontWeight="Bold" Foreground="Green"
+                                Background="Transparent" BorderBrush="Transparent"
+                                HorizontalAlignment="Left"  VerticalAlignment="Top" 
+                                Click="NewAcc_Click"/>
+
+                        <Button Content="Create new account" FontFamily="Berlin Sans FB" FontStyle="Italic" FontWeight="Bold" Foreground="Red"
+                                Background="Transparent" BorderBrush="Transparent"
+                                HorizontalAlignment="Left" VerticalAlignment="Top"
+                                Click="NewAcc_Click"/>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Page>
