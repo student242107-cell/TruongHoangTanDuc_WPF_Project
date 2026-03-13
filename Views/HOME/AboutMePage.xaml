@@ -12,7 +12,7 @@
 
         <Image x:Name="image" Height="200" Width="200"
                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="98,141,0,0"
-               Source="E:\TAN DUC\Pictures\vãi ò\558305463_826986916938600_5996948388883638060_n.jpg"/>
+               Source="WpfAppDemo;component\Images\meo_sigma.jpg"/>
         <Button Content="Download CV" FontSize="22" FontWeight="Bold" 
                 Foreground="White" Background="DarkOrange"
                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,350,0,0"/>

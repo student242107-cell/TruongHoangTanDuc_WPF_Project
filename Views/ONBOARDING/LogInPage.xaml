@@ -14,7 +14,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image Grid.Column="0" Source="E:\TAN DUC\Pictures\vãi ò\z3942141129895_d951de307826e39e8bd1383d521792fa.jpg"
+                <Image Grid.Column="0" Source="WpfAppDemo;component\Images\pikachu.jpg"
                        HorizontalAlignment="Left" VerticalAlignment="Center" 
                        Height="155" Width="100"/>
                 <StackPanel Grid.Column="1" Orientation ="Vertical" Height="Auto" Width="Auto">

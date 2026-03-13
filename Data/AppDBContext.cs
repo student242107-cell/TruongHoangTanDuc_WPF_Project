@@ -15,9 +15,7 @@ namespace WpfAppDemo.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if(!optionsBuilder.IsConfigured) // check if the options builder
-                                             // has already been configured to avoid
-                                             // redundant configuration.
+            if(!optionsBuilder.IsConfigured) // check if the options builder has already been configured to avoid redundant configuration.
                 optionsBuilder.UseSqlite("Data Source=WPFappLearnDB.db");
             // Configure the context to use a SQLite database named "WPFappLearnDB.db".     
         }
